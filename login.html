@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TutorIO Login</title>
+  </head>
+
+<body>
+ <form action="processlogin.php" method="post"> <!-- data sent to php file named here  -->
+ <figure class="imgcontainer">
+   <img src="resources/kindpng_tutor.png" width="50" height = "50" alt="Logo" class="Logo">
+   <figcaption>
+     <label for="slogan"><b>Insert Slogan here</b></label>
+   </figcaption>
+ </figure>
+
+ <main class="container">
+   <label for="user"><b>Username</b></label>
+   <input type="text" placeholder="Enter Username" name="user" required>
+   <br>
+
+   <label for="pass"><b>Password</b></label>
+   <input type="password" placeholder="Enter Password" name="pass" required>
+
+   <button type="submit">Login</button>
+   <br>
+   <label>
+     <input type="checkbox" checked="checked" name="remember"> Remember me
+   </label>
+ </main>
+
+ <br>
+
+ <div class="container">
+
+   <span class="pass">Forgot <a href="example.com/forgotpassword">password?</a></span>
+ </div>
+</form>
+
+  </body>
+</html>
