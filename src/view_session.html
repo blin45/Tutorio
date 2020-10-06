@@ -1,28 +1,23 @@
 <!DOCTYPE html> 
 <html>
 <head> 
-<style>
-	.info{
-		color: #dd0000;
-	}
-	.session_headers{
-		margin-left: 20px
-	}
-	.session_main{
-		margin-left: 20px
-	}
-</style>
-<link href="./Style/site_style.css" rel="stylesheet" />
+<link href="./Style/view_session.css" rel="stylesheet" />
 <title>View Session Details</title>
 <meta charset="UTF-8">
 </head>
 <body>
+	<div class="headband1">
+      <span class="dashboard-menubar">
+        <nav class="site-icon">Tutorio</nav>
+      </span>
+    </div>
+
+    <div class="headband2"></div>
   	<div class = "session_headers">
 		<h1>Session Info</h1>
-		<h3>Review Session for Data Structures </h3>
 	</div>
 	<div class = "session_main">
-  		<p><b>Details</b><br>
+  		<p><b>Review Session for Data Structures</b><br><br>
   		<b class = "info">Date:</b> October 8th, 2020 <br>
   		<b class = "info">Time:</b> 12:00-13:00 <br>
   		<b class = "info">Tutor(s):</b> <a href = "./user_profile.html">John Doe</a> <br>
@@ -31,5 +26,19 @@
   		<b class = "info">Misc details:</b> Make sure you have g++ installed. </p>
 		<button class="button" onclick="alert('You have successfully signed up for this session!')">Sign Up</button> <button class="button" onclick="alert('You have left this session')">Leave Session</button>
 	</div>
+	<div class="right-sidenav">
+      <b class = "other_sessions"> Other sessions for this class:</b> <br><br>
+       <li>
+        <b><a href = "#">Review Session</a></b>
+        <p>2:30 p.m. - 4:00 p. m. October 7th, 2020</p>
+        </li>
+        <li>
+        <b><a href = "#">Office Hours</a></b>
+        <p>4:00 p.m. - 5:00 p. m. October 12th, 2020</p>
+        </li>
+        <li>
+        <b><a href = "#">Review Session</a></b>
+        <p>11:00 p.m. - 12:00 a.m. October 31th, 2020</p>
+    </div>
 </body>
 </html>

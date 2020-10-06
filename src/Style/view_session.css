@@ -1,0 +1,122 @@
+/* taken from site_style.css */
+
+html{
+    font-family:  'Trebuchet MS', sans-serif;
+    color: #2d3142; 
+}
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.centered{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+
+/* --------------------------- Menu Colors -------------------------------- */
+
+.headband1{
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.headband2{
+    background-color: #990000;
+    width: 100%;
+    height: 20px;
+}
+
+.headband3{
+    background-color: #2d3142;
+    width: 100%;
+    height: 20px;
+}
+
+/* --------------------------- Menubar Styles -------------------------------- */
+
+span.dashboard-menubar{
+    width: 100%;
+    height: 50px;
+}
+
+nav.site-icon{
+    float: left;
+    color: #D6001C;
+    font-size: 3em;
+    font-family: 'Comic Sans MS', cursive;
+    margin: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+nav:hover{
+    color: #4d79ff;
+} 
+
+nav.site-icon:hover{
+    text-shadow: 3px 3px #4d79ff;
+    color: #ef8354;
+}
+
+
+
+.session_headers{
+    margin-left: 40%;
+    padding-bottom: 20px;
+}
+
+.session_main{
+    margin-left: 25%;
+    background-color: #faecec;
+    box-shadow: 3px 8px #ef8354;
+    border: 1px black;
+    border-radius: 10px;
+    min-height: 150px;
+    width: 40%;
+    min-width: 250px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    font-size: 1.5em;
+}
+
+.button{
+    background-color: #ef8354;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+}
+/* taken from user_profile.css*/
+.right-sidenav {
+  background-color: #000000; /* Black */
+  height: 770px; /*Full-height: remove this if you want "auto height"*/
+  width: 250px; /*Set the width of the sidebar*/
+  position: fixed; /* Fixed Sidebar (stay in place on scroll)*/
+  z-index: 1; /* Stay on top */
+  top: 150px; /* Stay at top */
+  right: 8px;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow: auto;
+  border: solid;
+  border-color: #990000;
+  text-align: center;
+  color: #faecec;
+}
+
+.other_sessions{
+    color: #D6001C;
+    padding-left: 10px;
+    margin-top: 50px;
+    font-size: 16px;
+}
