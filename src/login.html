@@ -3,39 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>TutorIO Login</title>
+     <link rel="stylesheet" href="modal.css">
   </head>
 
-<body>
- <form action="processlogin.php" method="post"> <!-- data sent to php file named here  -->
- <figure class="imgcontainer">
-   <img src="resources/kindpng_tutor.png" width="50" height = "50" alt="Logo" class="Logo">
-   <figcaption>
-     <label for="slogan"><b>Insert Slogan here</b></label>
-   </figcaption>
- </figure>
+<!-- Button to open the modal login form -->
+<button onclick="document.getElementById('loginbox').style.display='block'">Login</button>
 
- <main class="container">
-   <label for="user"><b>Username</b></label>
-   <input type="text" placeholder="Enter Username" name="user" required>
-   <br>
+<!-- The Modal -->
+<div id="loginbox" class="modal">
+ <span onclick="document.getElementById('loginbox').style.display='none'"
+class="close" title="Close Modal"></span>
 
-   <label for="pass"><b>Password</b></label>
-   <input type="password" placeholder="Enter Password" name="pass" required>
+ <!-- Modal Content -->
+ <form class="modal-content animate" action="doCASstuff.php">
+   <figure class="imgcontainer">
+     <img src="Images/kindpng_tutor.png" width="50" height = "50" alt="Logo" class="Logo">
+   </figure>
 
-   <button type="submit">Login</button>
-   <br>
-   <label>
-     <input type="checkbox" checked="checked" name="remember"> Remember me
-   </label>
- </main>
+   <main class="container">
+     <label for="user"><b>Username</b></label>
+     <input type="text" placeholder="Enter Username" name="user" required>
+     <br>
 
- <br>
+     <label for="pass"><b>Password</b></label>
+     <input type="password" placeholder="Enter Password" name="pass" required>
+     <br>
 
- <div class="container">
+     <button type="submit">Login</button>
+     <label>
+       <input type="checkbox" name="remember"> Remember me
+     </label>
+   </main>
 
-   <span class="pass">Forgot <a href="example.com/forgotpassword">password?</a></span>
- </div>
-</form>
-
-  </body>
+   <div class="container" style="background-color:#f1f1f1">
+     <button type="button" onclick="document.getElementById('loginbox').style.display='none'" class="cancelbtn">Cancel</button>
+     <span class="pass">Forgot <a href="example.com/forgotpassword">password?</a></span>
+   </div>
+ </form>
+</div>
 </html>
