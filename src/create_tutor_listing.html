@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New Tutor Listing</title>
+    <link href="Style/tutor_listing.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap" rel="stylesheet">
+    <link href='./resources/fullcalendar/main.css' rel='stylesheet' />
+    <script src='./resources/fullcalendar/main.js'></script>
+</head>
+
+<body>
+    <div class="headband1">
+        <span class="dashboard-menubar">
+          <nav class="site-icon">Tutorio</nav>
+        </span>
+    </div>
+    <div class="headband2"></div>
+    <br />
+
+    <div class="main body">
+        <h1>Create a new tutor listing</h1>
+
+        <form action="/action_page.php">
+            <label for="course">Select a course:</label>
+            <select id="course" name="course">
+              <option value="temp1">Placeholder 1</option>
+              <option value="temp2">Placeholder 2</option>
+              <option value="temp3">Placeholder 3</option>
+              <option value="temp4">Placeholder 4</option>
+            </select>
+            <br><br>
+            <label for="timeblock">Session Date:</label>
+            <input type="date" id="timeblock" name="timeblock">
+            <br><br>
+            <label for="start_time">Start Time: </label>
+            <input id="start_time" type="time" name="start_time">
+            <br><br>
+            <label for="end_time">End Time: </label>
+            <input id="end_time" type="time" name="end_time">
+            <br><br>
+            <input type="submit">
+          </form>
+    </div>
+
+</body>
+
+
+</html>
