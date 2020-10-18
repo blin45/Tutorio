@@ -110,13 +110,19 @@ nav.site-icon:hover{
   overflow: auto;
   border: solid;
   border-color: #990000;
-  text-align: center;
   color: #faecec;
 }
 
 .other_sessions{
     color: #D6001C;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-top: 50px;
     font-size: 16px;
+}
+.session_list{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+.session_date{
 }
