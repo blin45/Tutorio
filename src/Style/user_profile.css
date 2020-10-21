@@ -33,10 +33,10 @@ nav.site-icon{
 }
 
 .left-sidenav {
-  background-color: #000000; /* Black */
-  height: 750px; /*Full-height: remove this if you want "auto height"*/
+  background-color: #faecec; /* Black */
+  height: 342px; /*Full-height: remove this if you want "auto height"*/
   width:250px; /*Set the width of the sidebar*/
-  position: fixed; /* Fixed Sidebar (stay in place on scroll)*/
+  position: absolute; /* Fixed Sidebar (stay in place on scroll)*/
   z-index: 1; /* Stay on top */
   top: 150px; /* Stay at top */
   left: 8px;
@@ -60,11 +60,40 @@ nav.site-icon{
   color: #f1f1f1;
 }
 
+.class-list{
+  background-color: #faecec;
+  height: 500px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 520px;
+  padding-top: 0px;
+  overflow: auto;
+  border: solid;
+  border-color: #990000;
+}
+
+.class-list h1 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #990000;
+  display: block;
+  padding-left: 50px;
+}
+
+.class-list h2 {
+  padding: 3px 8px 6px 16px;
+  text-decoration: none;
+  color: #990000;
+  display: block;
+  padding-left: 50px;
+}
+
 .right-sidenav {
-  background-color: #000000; /* Black */
-  height: 770px; /*Full-height: remove this if you want "auto height"*/
+  background-color: #faecec; /* Black */
+  height: 362px; /*Full-height: remove this if you want "auto height"*/
   width:250px; /*Set the width of the sidebar*/
-  position: fixed; /* Fixed Sidebar (stay in place on scroll)*/
+  position: absolute; /* Fixed Sidebar (stay in place on scroll)*/
   z-index: 1; /* Stay on top */
   top: 150px; /* Stay at top */
   right: 8px;
@@ -100,6 +129,32 @@ span.sidenav-menubar{
   margin-left: 0px;
   padding: 0px 10px;
   text-align: center;
+}
+
+.office_hour_times {
+  margin-left: 0px;
+  padding: 10px 10px;
+  text-align: center;
+  border: solid;
+  border-color: #990000;
+}
+
+.review-board {
+  background-color: #faecec; /* Black */
+  height: 500px; /*Full-height: remove this if you want "auto height"*/
+  width:1627px; /*Set the width of the sidebar*/
+  position: absolute; /* Fixed Sidebar (stay in place on scroll)*/ /* Stay on top */
+  top: 520px; /* Stay at top */
+  right: 8px;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow: auto;
+  border: solid;
+  border-color: #990000;
+}
+
+.review-board h1 {
+  padding: 6px 8px 6px 16px;
+  color: #990000;
 }
 
 img {
