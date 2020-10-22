@@ -143,3 +143,17 @@ img.msg-icon{
     height: 20px;
     width: 20px;
 }
+/* --------------------------- Search Functionality -------------------------------- */
+
+.search{
+    text-align: center;
+}
+
+#Input {
+    width: 75%;
+    font-size: 16px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #D6001C;
+    margin-left: 90px;
+}
+
