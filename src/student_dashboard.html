@@ -19,6 +19,9 @@
       <nav class="menu-link">
         <a href="user_profile.html">Profile</a>
       </nav>
+      <nav onclick="document.getElementById('new-account').style.display='block'" class="menu-link">
+        <a>Create Account</a>
+      </nav>
     </span>
   </div>
   <div class="headband2"></div>
@@ -72,6 +75,31 @@
     </div>
 
   </div>
+
+  <div id="new-account" class="modal">
+    <span onclick="document.getElementById('new-account').style.display='none'"
+   class="close" title="Close Modal"></span>
+ 
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="account_creation.html">
+ 
+      <main class="container">
+        <label for="user"><b>Enter a username</b></label>
+        <input type="text" id ="new-username" name="user" required>
+        <br>
+ 
+        <label for="pass"><b>Enter a password</b></label>
+        <input type="password" id="new-password" name="pass" required minlength="8" required>
+        <br>
+ 
+        <button type="submit">Create Tutorio account</button>
+      </main>
+ 
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('new-account').style.display='none'" class="cancelbtn">Cancel</button>
+      </div>
+    </form>
+   </div>
 </body>
 
 </html>
