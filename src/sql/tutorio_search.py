@@ -1,14 +1,5 @@
 import psycopg2
 
-def findClassesTakenSpecificUser():
-    user = input()
-#    """(
-#select *
-#from users
-#where name = 'William Violet';
-
-#select * from classes_taken;
-
 def findTutorsForClass(className):
     query = """
         select
