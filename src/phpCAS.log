@@ -1,0 +1,1861 @@
+1DDC .START (2020-11-23 09:04:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+1DDC .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+1DDC .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+1DDC .|    |    Starting a new session hofkt5nvlrn10jhp0a6d5lo8v7 [Client.php:932]
+1DDC .|    |    Session is not authenticated [Client.php:938]
+1DDC .|    <= ''
+1DDC .<= ''
+1DDC .=> phpCAS::setNoCasServerValidation() [login.php:8]
+1DDC .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1DDC .<= ''
+1DDC .=> phpCAS::checkAuthentication() [login.php:40]
+1DDC .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+1DDC .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+1DDC .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+1DDC .|    |    |    |    no user found [Client.php:1640]
+1DDC .|    |    |    <= false
+1DDC .|    |    |    no ticket found [Client.php:1499]
+1DDC .|    |    <= false
+1DDC .|    |    user is not authenticated (cache reset) [Client.php:1374]
+1DDC .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+1DDC .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+1DDC .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+1DDC .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php [Client.php:3585]
+1DDC .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php'
+1DDC .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php&gateway=true'
+1DDC .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php&gateway=true [Client.php:1668]
+1DDC .|    |    |    exit()
+1DDC .|    |    |    -
+1DDC .|    |    -
+1DDC .|    -
+A6C7 .START (2020-11-23 09:04:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+A6C7 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+A6C7 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+A6C7 .|    |    Starting a new session hofkt5nvlrn10jhp0a6d5lo8v7 [Client.php:932]
+A6C7 .|    |    Session is not authenticated [Client.php:938]
+A6C7 .|    <= ''
+A6C7 .<= ''
+A6C7 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+A6C7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A6C7 .<= ''
+A6C7 .=> phpCAS::checkAuthentication() [login.php:40]
+A6C7 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+A6C7 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+A6C7 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+A6C7 .|    |    |    |    no user found [Client.php:1640]
+A6C7 .|    |    |    <= false
+A6C7 .|    |    |    no ticket found [Client.php:1499]
+A6C7 .|    |    <= false
+A6C7 .|    <= false
+A6C7 .<= false
+96C7 .START (2020-11-23 09:04:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+96C7 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+96C7 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+96C7 .|    |    Starting a new session hofkt5nvlrn10jhp0a6d5lo8v7 [Client.php:932]
+96C7 .|    |    Session is not authenticated [Client.php:938]
+96C7 .|    <= ''
+96C7 .<= ''
+96C7 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+96C7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+96C7 .<= ''
+96C7 .=> phpCAS::forceAuthentication() [login.php:11]
+96C7 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+96C7 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+96C7 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+96C7 .|    |    |    |    no user found [Client.php:1640]
+96C7 .|    |    |    <= false
+96C7 .|    |    |    no ticket found [Client.php:1499]
+96C7 .|    |    <= false
+96C7 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+96C7 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+96C7 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+96C7 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+96C7 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+96C7 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D'
+96C7 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D [Client.php:1668]
+96C7 .|    |    |    exit()
+96C7 .|    |    |    -
+96C7 .|    |    -
+96C7 .|    -
+6290 .START (2020-11-23 09:05:00) phpCAS-1.3.8 ****************** [CAS.php:475]
+6290 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+6290 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+6290 .|    |    Starting a new session hofkt5nvlrn10jhp0a6d5lo8v7 [Client.php:932]
+6290 .|    |    Session is not authenticated [Client.php:938]
+6290 .|    |    Ticket 'ST-262590-Hlyy7GbxTJgMaNcmciwv-cas-auth.server.rpi.edu' found [Client.php:1026]
+6290 .|    <= ''
+6290 .<= ''
+6290 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+6290 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6290 .<= ''
+6290 .=> phpCAS::forceAuthentication() [login.php:11]
+6290 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+6290 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+6290 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+6290 .|    |    |    |    no user found [Client.php:1640]
+6290 .|    |    |    <= false
+6290 .|    |    |    CAS 3.0 ticket `ST-262590-Hlyy7GbxTJgMaNcmciwv-cas-auth.server.rpi.edu' is present [Client.php:1451]
+6290 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+6290 .|    |    |    |     [Client.php:3216]
+6290 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+6290 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+6290 .|    |    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+6290 .|    |    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+6290 .|    |    |    |    <= 'https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D'
+6290 .|    |    |    |    => CAS_Client::_readURL('https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D&ticket=ST-262590-Hlyy7GbxTJgMaNcmciwv-cas-auth.server.rpi.edu', NULL, NULL, NULL) [Client.php:3237]
+6290 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+6290 .|    |    |    |    |    |    Response Body: 
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+6290 .|    |    |    |    |    |        <cas:authenticationSuccess>
+6290 .|    |    |    |    |    |            <cas:user>FISHEK3</cas:user>
+6290 .|    |    |    |    |    |            
+6290 .|    |    |    |    |    |            
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |            
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |        </cas:authenticationSuccess>
+6290 .|    |    |    |    |    |    </cas:serviceResponse>
+6290 .|    |    |    |    |    |    
+6290 .|    |    |    |    |    |     [CurlRequest.php:84]
+6290 .|    |    |    |    |    <= true
+6290 .|    |    |    |    <= true
+6290 .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+6290 .|    |    |    |    |    Testing for rubycas style attributes [Client.php:3414]
+6290 .|    |    |    |    <= ''
+6290 .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+6290 .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+6290 .|    |    |    |    <= true
+6290 .|    |    |    |    => CAS_Client::_renameSession('ST-262590-Hlyy7GbxTJgMaNcmciwv-cas-auth.server.rpi.edu') [Client.php:3331]
+6290 .|    |    |    |    |    Killing session: hofkt5nvlrn10jhp0a6d5lo8v7 [Client.php:3718]
+6290 .|    |    |    |    |    Starting session: bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:3722]
+6290 .|    |    |    |    |    Restoring old session vars [Client.php:3725]
+6290 .|    |    |    |    <= ''
+6290 .|    |    |    <= true
+6290 .|    |    |    CAS 3.0 ticket `ST-262590-Hlyy7GbxTJgMaNcmciwv-cas-auth.server.rpi.edu' was validated [Client.php:1457]
+6290 .|    |    |    => CAS_Client::getURL() [Client.php:1523]
+6290 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+6290 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:1523]
+6290 .|    |    |    => CAS_Client::getURL() [Client.php:1525]
+6290 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+6290 .|    |    |    exit()
+6290 .|    |    |    -
+6290 .|    |    -
+6290 .|    -
+8BA2 .START (2020-11-23 09:05:01) phpCAS-1.3.8 ****************** [CAS.php:475]
+8BA2 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+8BA2 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+8BA2 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+8BA2 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+8BA2 .|    <= ''
+8BA2 .<= ''
+8BA2 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+8BA2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8BA2 .<= ''
+8BA2 .=> phpCAS::forceAuthentication() [login.php:11]
+8BA2 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+8BA2 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+8BA2 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+8BA2 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+8BA2 .|    |    |    <= true
+8BA2 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+8BA2 .|    |    <= true
+8BA2 .|    |    no need to authenticate [Client.php:1288]
+8BA2 .|    <= true
+8BA2 .<= ''
+3358 .START (2020-11-23 09:05:27) phpCAS-1.3.8 ****************** [CAS.php:475]
+3358 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+3358 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+3358 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+3358 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+3358 .|    |    Ticket 'ST-262591-TYorrImo3lOdWNQgjljS-cas-auth.server.rpi.edu' found [Client.php:1026]
+3358 .|    <= ''
+3358 .<= ''
+3358 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+3358 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3358 .<= ''
+3358 .=> phpCAS::forceAuthentication() [login.php:11]
+3358 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+3358 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+3358 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3358 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+3358 .|    |    |    <= true
+3358 .|    |    |    ticket was present and will be discarded, use renewAuthenticate() [Client.php:1402]
+3358 .|    |    |    => CAS_Client::getURL() [Client.php:1405]
+3358 .|    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+3358 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+3358 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:1405]
+3358 .|    |    |    => CAS_Client::getURL() [Client.php:1407]
+3358 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+3358 .|    |    |    exit()
+3358 .|    |    |    -
+3358 .|    |    -
+3358 .|    -
+C7BF .START (2020-11-23 09:05:28) phpCAS-1.3.8 ****************** [CAS.php:475]
+C7BF .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+C7BF .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+C7BF .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+C7BF .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+C7BF .|    |    Ticket 'ST-262592-Sttz6Z1OVwg6uDwpA6eT-cas-auth.server.rpi.edu' found [Client.php:1026]
+C7BF .|    <= ''
+C7BF .<= ''
+C7BF .=> phpCAS::setNoCasServerValidation() [login.php:8]
+C7BF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C7BF .<= ''
+C7BF .=> phpCAS::forceAuthentication() [login.php:11]
+C7BF .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+C7BF .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+C7BF .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C7BF .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+C7BF .|    |    |    <= true
+C7BF .|    |    |    ticket was present and will be discarded, use renewAuthenticate() [Client.php:1402]
+C7BF .|    |    |    => CAS_Client::getURL() [Client.php:1405]
+C7BF .|    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+C7BF .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+C7BF .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:1405]
+C7BF .|    |    |    => CAS_Client::getURL() [Client.php:1407]
+C7BF .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+C7BF .|    |    |    exit()
+C7BF .|    |    |    -
+C7BF .|    |    -
+C7BF .|    -
+FFAF .START (2020-11-23 09:05:28) phpCAS-1.3.8 ****************** [CAS.php:475]
+FFAF .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+FFAF .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+FFAF .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+FFAF .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+FFAF .|    <= ''
+FFAF .<= ''
+FFAF .=> phpCAS::setNoCasServerValidation() [login.php:8]
+FFAF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+FFAF .<= ''
+FFAF .=> phpCAS::forceAuthentication() [login.php:11]
+FFAF .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+FFAF .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+FFAF .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+FFAF .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+FFAF .|    |    |    <= true
+FFAF .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+FFAF .|    |    <= true
+FFAF .|    |    no need to authenticate [Client.php:1288]
+FFAF .|    <= true
+FFAF .<= ''
+6860 .START (2020-11-23 09:05:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+6860 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+6860 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+6860 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+6860 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+6860 .|    |    Ticket 'ST-262593-yUwFSBhgLyIvLvUbpfPR-cas-auth.server.rpi.edu' found [Client.php:1026]
+6860 .|    <= ''
+6860 .<= ''
+6860 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+6860 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6860 .<= ''
+6860 .=> phpCAS::forceAuthentication() [login.php:11]
+6860 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+6860 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+6860 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+6860 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+6860 .|    |    |    <= true
+6860 .|    |    |    ticket was present and will be discarded, use renewAuthenticate() [Client.php:1402]
+6860 .|    |    |    => CAS_Client::getURL() [Client.php:1405]
+6860 .|    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+6860 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+6860 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:1405]
+6860 .|    |    |    => CAS_Client::getURL() [Client.php:1407]
+6860 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+6860 .|    |    |    exit()
+6860 .|    |    |    -
+6860 .|    |    -
+6860 .|    -
+56E6 .START (2020-11-23 09:05:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+56E6 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+56E6 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+56E6 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+56E6 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+56E6 .|    <= ''
+56E6 .<= ''
+56E6 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+56E6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+56E6 .<= ''
+56E6 .=> phpCAS::forceAuthentication() [login.php:11]
+56E6 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+56E6 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+56E6 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+56E6 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+56E6 .|    |    |    <= true
+56E6 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+56E6 .|    |    <= true
+56E6 .|    |    no need to authenticate [Client.php:1288]
+56E6 .|    <= true
+56E6 .<= ''
+DDBF .START (2020-11-23 09:05:42) phpCAS-1.3.8 ****************** [CAS.php:475]
+DDBF .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+DDBF .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+DDBF .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+DDBF .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+DDBF .|    <= ''
+DDBF .<= ''
+DDBF .=> phpCAS::setNoCasServerValidation() [login.php:8]
+DDBF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DDBF .<= ''
+DDBF .=> phpCAS::checkAuthentication() [login.php:40]
+DDBF .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+DDBF .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+DDBF .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+DDBF .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+DDBF .|    |    |    <= true
+DDBF .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+DDBF .|    |    <= true
+DDBF .|    |    user is authenticated [Client.php:1337]
+DDBF .|    <= true
+DDBF .<= true
+0309 .START (2020-11-23 09:05:45) phpCAS-1.3.8 ****************** [CAS.php:475]
+0309 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+0309 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+0309 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+0309 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+0309 .|    <= ''
+0309 .<= ''
+0309 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+0309 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0309 .<= ''
+0309 .=> phpCAS::logout(array (  'service' => 'project.websys/views',  'url' => 'project.websys/views',)) [login.php:17]
+0309 .|    => CAS_Client::logout(array (  'service' => 'project.websys/views',  'url' => 'project.websys/views',)) [CAS.php:1470]
+0309 .|    |    Prepare redirect to : https://cas-auth.rpi.edu/cas/logout?url=project.websys%2Fviews&service=project.websys%2Fviews [Client.php:1701]
+0309 .|    |    Destroying session : bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:1703]
+0309 .|    |    Session terminated [Client.php:1707]
+0309 .|    |    exit()
+0309 .|    |    -
+0309 .|    -
+1622 .START (2020-11-23 09:05:48) phpCAS-1.3.8 ****************** [CAS.php:475]
+1622 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+1622 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+1622 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+1622 .|    |    Session is not authenticated [Client.php:938]
+1622 .|    <= ''
+1622 .<= ''
+1622 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+1622 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1622 .<= ''
+1622 .=> phpCAS::checkAuthentication() [login.php:40]
+1622 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+1622 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+1622 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+1622 .|    |    |    |    no user found [Client.php:1640]
+1622 .|    |    |    <= false
+1622 .|    |    |    no ticket found [Client.php:1499]
+1622 .|    |    <= false
+1622 .|    |    user is not authenticated (cache reset) [Client.php:1374]
+1622 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+1622 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+1622 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+1622 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php [Client.php:3585]
+1622 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php'
+1622 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php&gateway=true'
+1622 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php&gateway=true [Client.php:1668]
+1622 .|    |    |    exit()
+1622 .|    |    |    -
+1622 .|    |    -
+1622 .|    -
+39F2 .START (2020-11-23 09:05:49) phpCAS-1.3.8 ****************** [CAS.php:475]
+39F2 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+39F2 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+39F2 .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+39F2 .|    |    Session is not authenticated [Client.php:938]
+39F2 .|    <= ''
+39F2 .<= ''
+39F2 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+39F2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+39F2 .<= ''
+39F2 .=> phpCAS::checkAuthentication() [login.php:40]
+39F2 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+39F2 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+39F2 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+39F2 .|    |    |    |    no user found [Client.php:1640]
+39F2 .|    |    |    <= false
+39F2 .|    |    |    no ticket found [Client.php:1499]
+39F2 .|    |    <= false
+39F2 .|    <= false
+39F2 .<= false
+487D .START (2020-11-23 09:05:51) phpCAS-1.3.8 ****************** [CAS.php:475]
+487D .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+487D .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+487D .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+487D .|    |    Session is not authenticated [Client.php:938]
+487D .|    <= ''
+487D .<= ''
+487D .=> phpCAS::setNoCasServerValidation() [login.php:8]
+487D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+487D .<= ''
+487D .=> phpCAS::forceAuthentication() [login.php:11]
+487D .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+487D .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+487D .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+487D .|    |    |    |    no user found [Client.php:1640]
+487D .|    |    |    <= false
+487D .|    |    |    no ticket found [Client.php:1499]
+487D .|    |    <= false
+487D .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+487D .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+487D .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+487D .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+487D .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+487D .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D'
+487D .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D [Client.php:1668]
+487D .|    |    |    exit()
+487D .|    |    |    -
+487D .|    |    -
+487D .|    -
+FF3C .START (2020-11-23 09:05:54) phpCAS-1.3.8 ****************** [CAS.php:475]
+FF3C .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+FF3C .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+FF3C .|    |    Starting a new session bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:932]
+FF3C .|    |    Session is not authenticated [Client.php:938]
+FF3C .|    |    Ticket 'ST-262594-AqrwprVoYUSWiI23v7zr-cas-auth.server.rpi.edu' found [Client.php:1026]
+FF3C .|    <= ''
+FF3C .<= ''
+FF3C .=> phpCAS::setNoCasServerValidation() [login.php:8]
+FF3C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+FF3C .<= ''
+FF3C .=> phpCAS::forceAuthentication() [login.php:11]
+FF3C .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+FF3C .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+FF3C .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+FF3C .|    |    |    |    no user found [Client.php:1640]
+FF3C .|    |    |    <= false
+FF3C .|    |    |    CAS 3.0 ticket `ST-262594-AqrwprVoYUSWiI23v7zr-cas-auth.server.rpi.edu' is present [Client.php:1451]
+FF3C .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+FF3C .|    |    |    |     [Client.php:3216]
+FF3C .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+FF3C .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+FF3C .|    |    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:3585]
+FF3C .|    |    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+FF3C .|    |    |    |    <= 'https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D'
+FF3C .|    |    |    |    => CAS_Client::_readURL('https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Flogin.php%3Flogin%3D&ticket=ST-262594-AqrwprVoYUSWiI23v7zr-cas-auth.server.rpi.edu', NULL, NULL, NULL) [Client.php:3237]
+FF3C .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+FF3C .|    |    |    |    |    |    Response Body: 
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+FF3C .|    |    |    |    |    |        <cas:authenticationSuccess>
+FF3C .|    |    |    |    |    |            <cas:user>FISHEK3</cas:user>
+FF3C .|    |    |    |    |    |            
+FF3C .|    |    |    |    |    |            
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |            
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |        </cas:authenticationSuccess>
+FF3C .|    |    |    |    |    |    </cas:serviceResponse>
+FF3C .|    |    |    |    |    |    
+FF3C .|    |    |    |    |    |     [CurlRequest.php:84]
+FF3C .|    |    |    |    |    <= true
+FF3C .|    |    |    |    <= true
+FF3C .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+FF3C .|    |    |    |    |    Testing for rubycas style attributes [Client.php:3414]
+FF3C .|    |    |    |    <= ''
+FF3C .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+FF3C .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+FF3C .|    |    |    |    <= true
+FF3C .|    |    |    |    => CAS_Client::_renameSession('ST-262594-AqrwprVoYUSWiI23v7zr-cas-auth.server.rpi.edu') [Client.php:3331]
+FF3C .|    |    |    |    |    Killing session: bca1f9dd4fc5a3b67b427b72a85b35694d42e6331ddfef6cb9e2537fe656cdb0 [Client.php:3718]
+FF3C .|    |    |    |    |    Starting session: f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:3722]
+FF3C .|    |    |    |    |    Restoring old session vars [Client.php:3725]
+FF3C .|    |    |    |    <= ''
+FF3C .|    |    |    <= true
+FF3C .|    |    |    CAS 3.0 ticket `ST-262594-AqrwprVoYUSWiI23v7zr-cas-auth.server.rpi.edu' was validated [Client.php:1457]
+FF3C .|    |    |    => CAS_Client::getURL() [Client.php:1523]
+FF3C .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+FF3C .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/login.php?login= [Client.php:1523]
+FF3C .|    |    |    => CAS_Client::getURL() [Client.php:1525]
+FF3C .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/login.php?login='
+FF3C .|    |    |    exit()
+FF3C .|    |    |    -
+FF3C .|    |    -
+FF3C .|    -
+EEB8 .START (2020-11-23 09:05:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+EEB8 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [login.php:7]
+EEB8 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+EEB8 .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+EEB8 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+EEB8 .|    <= ''
+EEB8 .<= ''
+EEB8 .=> phpCAS::setNoCasServerValidation() [login.php:8]
+EEB8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EEB8 .<= ''
+EEB8 .=> phpCAS::forceAuthentication() [login.php:11]
+EEB8 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+EEB8 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+EEB8 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+EEB8 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+EEB8 .|    |    |    <= true
+EEB8 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+EEB8 .|    |    <= true
+EEB8 .|    |    no need to authenticate [Client.php:1288]
+EEB8 .|    <= true
+EEB8 .<= ''
+BF7E .START (2020-11-23 09:44:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+BF7E .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+BF7E .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+BF7E .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+BF7E .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+BF7E .|    <= ''
+BF7E .<= ''
+BF7E .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+BF7E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BF7E .<= ''
+BF7E .=> phpCAS::checkAuthentication() [student_dashboard.php:42]
+BF7E .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+BF7E .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+BF7E .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+BF7E .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+BF7E .|    |    |    <= true
+BF7E .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+BF7E .|    |    <= true
+BF7E .|    |    user is authenticated [Client.php:1337]
+BF7E .|    <= true
+BF7E .<= true
+DBB1 .START (2020-11-23 09:44:46) phpCAS-1.3.8 ****************** [CAS.php:475]
+DBB1 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+DBB1 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+DBB1 .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+DBB1 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+DBB1 .|    <= ''
+DBB1 .<= ''
+DBB1 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+DBB1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DBB1 .<= ''
+DBB1 .=> phpCAS::checkAuthentication() [student_dashboard.php:48]
+DBB1 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+DBB1 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+DBB1 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+DBB1 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+DBB1 .|    |    |    <= true
+DBB1 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+DBB1 .|    |    <= true
+DBB1 .|    |    user is authenticated [Client.php:1337]
+DBB1 .|    <= true
+DBB1 .<= true
+6F1C .START (2020-11-23 09:45:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+6F1C .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+6F1C .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+6F1C .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+6F1C .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+6F1C .|    <= ''
+6F1C .<= ''
+6F1C .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+6F1C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6F1C .<= ''
+6F1C .=> phpCAS::checkAuthentication() [student_dashboard.php:50]
+6F1C .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+6F1C .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+6F1C .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+6F1C .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+6F1C .|    |    |    <= true
+6F1C .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+6F1C .|    |    <= true
+6F1C .|    |    user is authenticated [Client.php:1337]
+6F1C .|    <= true
+6F1C .<= true
+A5C7 .START (2020-11-23 09:45:09) phpCAS-1.3.8 ****************** [CAS.php:475]
+A5C7 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+A5C7 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+A5C7 .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+A5C7 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+A5C7 .|    <= ''
+A5C7 .<= ''
+A5C7 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+A5C7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A5C7 .<= ''
+A5C7 .=> phpCAS::logout(array (  'service' => 'project.websys/views',  'url' => 'project.websys/views',)) [student_dashboard.php:17]
+A5C7 .|    => CAS_Client::logout(array (  'service' => 'project.websys/views',  'url' => 'project.websys/views',)) [CAS.php:1470]
+A5C7 .|    |    Prepare redirect to : https://cas-auth.rpi.edu/cas/logout?url=project.websys%2Fviews&service=project.websys%2Fviews [Client.php:1701]
+A5C7 .|    |    Destroying session : f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:1703]
+A5C7 .|    |    Session terminated [Client.php:1707]
+A5C7 .|    |    exit()
+A5C7 .|    |    -
+A5C7 .|    -
+E540 .START (2020-11-23 09:45:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+E540 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+E540 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+E540 .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+E540 .|    |    Session is not authenticated [Client.php:938]
+E540 .|    <= ''
+E540 .<= ''
+E540 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+E540 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E540 .<= ''
+E540 .=> phpCAS::checkAuthentication() [student_dashboard.php:50]
+E540 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+E540 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+E540 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+E540 .|    |    |    |    no user found [Client.php:1640]
+E540 .|    |    |    <= false
+E540 .|    |    |    no ticket found [Client.php:1499]
+E540 .|    |    <= false
+E540 .|    |    user is not authenticated (cache reset) [Client.php:1374]
+E540 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+E540 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+E540 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+E540 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+E540 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+E540 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+E540 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+E540 .|    |    |    exit()
+E540 .|    |    |    -
+E540 .|    |    -
+E540 .|    -
+EC9D .START (2020-11-23 09:45:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+EC9D .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+EC9D .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+EC9D .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+EC9D .|    |    Session is not authenticated [Client.php:938]
+EC9D .|    <= ''
+EC9D .<= ''
+EC9D .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+EC9D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EC9D .<= ''
+EC9D .=> phpCAS::checkAuthentication() [student_dashboard.php:50]
+EC9D .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+EC9D .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+EC9D .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+EC9D .|    |    |    |    no user found [Client.php:1640]
+EC9D .|    |    |    <= false
+EC9D .|    |    |    no ticket found [Client.php:1499]
+EC9D .|    |    <= false
+EC9D .|    <= false
+EC9D .<= false
+244B .START (2020-11-23 09:45:21) phpCAS-1.3.8 ****************** [CAS.php:475]
+244B .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+244B .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+244B .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+244B .|    |    Session is not authenticated [Client.php:938]
+244B .|    <= ''
+244B .<= ''
+244B .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+244B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+244B .<= ''
+244B .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+244B .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+244B .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+244B .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+244B .|    |    |    |    no user found [Client.php:1640]
+244B .|    |    |    <= false
+244B .|    |    |    no ticket found [Client.php:1499]
+244B .|    |    <= false
+244B .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+244B .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+244B .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+244B .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+244B .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+244B .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+244B .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D [Client.php:1668]
+244B .|    |    |    exit()
+244B .|    |    |    -
+244B .|    |    -
+244B .|    -
+D8B2 .START (2020-11-23 09:45:24) phpCAS-1.3.8 ****************** [CAS.php:475]
+D8B2 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+D8B2 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+D8B2 .|    |    Starting a new session f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:932]
+D8B2 .|    |    Session is not authenticated [Client.php:938]
+D8B2 .|    |    Ticket 'ST-262604-flferzvL9DJ3yvGecC9M-cas-auth.server.rpi.edu' found [Client.php:1026]
+D8B2 .|    <= ''
+D8B2 .<= ''
+D8B2 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+D8B2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D8B2 .<= ''
+D8B2 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+D8B2 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+D8B2 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+D8B2 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+D8B2 .|    |    |    |    no user found [Client.php:1640]
+D8B2 .|    |    |    <= false
+D8B2 .|    |    |    CAS 3.0 ticket `ST-262604-flferzvL9DJ3yvGecC9M-cas-auth.server.rpi.edu' is present [Client.php:1451]
+D8B2 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+D8B2 .|    |    |    |     [Client.php:3216]
+D8B2 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+D8B2 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+D8B2 .|    |    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+D8B2 .|    |    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+D8B2 .|    |    |    |    <= 'https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+D8B2 .|    |    |    |    => CAS_Client::_readURL('https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D&ticket=ST-262604-flferzvL9DJ3yvGecC9M-cas-auth.server.rpi.edu', NULL, NULL, NULL) [Client.php:3237]
+D8B2 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+D8B2 .|    |    |    |    |    |    Response Body: 
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+D8B2 .|    |    |    |    |    |        <cas:authenticationSuccess>
+D8B2 .|    |    |    |    |    |            <cas:user>FISHEK3</cas:user>
+D8B2 .|    |    |    |    |    |            
+D8B2 .|    |    |    |    |    |            
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |            
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |        </cas:authenticationSuccess>
+D8B2 .|    |    |    |    |    |    </cas:serviceResponse>
+D8B2 .|    |    |    |    |    |    
+D8B2 .|    |    |    |    |    |     [CurlRequest.php:84]
+D8B2 .|    |    |    |    |    <= true
+D8B2 .|    |    |    |    <= true
+D8B2 .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+D8B2 .|    |    |    |    |    Testing for rubycas style attributes [Client.php:3414]
+D8B2 .|    |    |    |    <= ''
+D8B2 .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+D8B2 .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+D8B2 .|    |    |    |    <= true
+D8B2 .|    |    |    |    => CAS_Client::_renameSession('ST-262604-flferzvL9DJ3yvGecC9M-cas-auth.server.rpi.edu') [Client.php:3331]
+D8B2 .|    |    |    |    |    Killing session: f8893caf4a4b0f178beac60c5830c2d04af3c1412765652d220ea3e6a9a92ed2 [Client.php:3718]
+D8B2 .|    |    |    |    |    Starting session: 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:3722]
+D8B2 .|    |    |    |    |    Restoring old session vars [Client.php:3725]
+D8B2 .|    |    |    |    <= ''
+D8B2 .|    |    |    <= true
+D8B2 .|    |    |    CAS 3.0 ticket `ST-262604-flferzvL9DJ3yvGecC9M-cas-auth.server.rpi.edu' was validated [Client.php:1457]
+D8B2 .|    |    |    => CAS_Client::getURL() [Client.php:1523]
+D8B2 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+D8B2 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:1523]
+D8B2 .|    |    |    => CAS_Client::getURL() [Client.php:1525]
+D8B2 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+D8B2 .|    |    |    exit()
+D8B2 .|    |    |    -
+D8B2 .|    |    -
+D8B2 .|    -
+49C2 .START (2020-11-23 09:45:25) phpCAS-1.3.8 ****************** [CAS.php:475]
+49C2 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+49C2 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+49C2 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+49C2 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+49C2 .|    <= ''
+49C2 .<= ''
+49C2 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+49C2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+49C2 .<= ''
+49C2 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+49C2 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+49C2 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+49C2 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+49C2 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+49C2 .|    |    |    <= true
+49C2 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+49C2 .|    |    <= true
+49C2 .|    |    no need to authenticate [Client.php:1288]
+49C2 .|    <= true
+49C2 .<= ''
+2073 .START (2020-11-23 09:46:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+2073 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+2073 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+2073 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+2073 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+2073 .|    |    Ticket 'ST-262606-9fCUsLdDRDyxe0BsBwv6-cas-auth.server.rpi.edu' found [Client.php:1026]
+2073 .|    <= ''
+2073 .<= ''
+2073 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+2073 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2073 .<= ''
+2073 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+2073 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+2073 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+2073 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2073 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+2073 .|    |    |    <= true
+2073 .|    |    |    ticket was present and will be discarded, use renewAuthenticate() [Client.php:1402]
+2073 .|    |    |    => CAS_Client::getURL() [Client.php:1405]
+2073 .|    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+2073 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+2073 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:1405]
+2073 .|    |    |    => CAS_Client::getURL() [Client.php:1407]
+2073 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+2073 .|    |    |    exit()
+2073 .|    |    |    -
+2073 .|    |    -
+2073 .|    -
+8ABD .START (2020-11-23 09:46:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+8ABD .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+8ABD .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+8ABD .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+8ABD .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+8ABD .|    <= ''
+8ABD .<= ''
+8ABD .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+8ABD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8ABD .<= ''
+8ABD .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+8ABD .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+8ABD .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+8ABD .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+8ABD .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+8ABD .|    |    |    <= true
+8ABD .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+8ABD .|    |    <= true
+8ABD .|    |    no need to authenticate [Client.php:1288]
+8ABD .|    <= true
+8ABD .<= ''
+3A43 .START (2020-11-23 09:46:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+3A43 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+3A43 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+3A43 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+3A43 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+3A43 .|    <= ''
+3A43 .<= ''
+3A43 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+3A43 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3A43 .<= ''
+3A43 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+3A43 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+3A43 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+3A43 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3A43 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+3A43 .|    |    |    <= true
+3A43 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+3A43 .|    |    <= true
+3A43 .|    |    user is authenticated [Client.php:1337]
+3A43 .|    <= true
+3A43 .<= true
+77D4 .START (2020-11-23 09:46:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+77D4 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+77D4 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+77D4 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+77D4 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+77D4 .|    |    Ticket 'ST-262607-HcJHGfWffG2B50K6103I-cas-auth.server.rpi.edu' found [Client.php:1026]
+77D4 .|    <= ''
+77D4 .<= ''
+77D4 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+77D4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+77D4 .<= ''
+77D4 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+77D4 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+77D4 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+77D4 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+77D4 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+77D4 .|    |    |    <= true
+77D4 .|    |    |    ticket was present and will be discarded, use renewAuthenticate() [Client.php:1402]
+77D4 .|    |    |    => CAS_Client::getURL() [Client.php:1405]
+77D4 .|    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+77D4 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+77D4 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:1405]
+77D4 .|    |    |    => CAS_Client::getURL() [Client.php:1407]
+77D4 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+77D4 .|    |    |    exit()
+77D4 .|    |    |    -
+77D4 .|    |    -
+77D4 .|    -
+9B27 .START (2020-11-23 09:46:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+9B27 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+9B27 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+9B27 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+9B27 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+9B27 .|    <= ''
+9B27 .<= ''
+9B27 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+9B27 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9B27 .<= ''
+9B27 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+9B27 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+9B27 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+9B27 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+9B27 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+9B27 .|    |    |    <= true
+9B27 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+9B27 .|    |    <= true
+9B27 .|    |    no need to authenticate [Client.php:1288]
+9B27 .|    <= true
+9B27 .<= ''
+0598 .START (2020-11-23 09:46:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+0598 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+0598 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+0598 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+0598 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+0598 .|    <= ''
+0598 .<= ''
+0598 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+0598 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0598 .<= ''
+0598 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+0598 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+0598 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+0598 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+0598 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+0598 .|    |    |    <= true
+0598 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+0598 .|    |    <= true
+0598 .|    |    user is authenticated [Client.php:1337]
+0598 .|    <= true
+0598 .<= true
+A0B6 .START (2020-11-23 09:46:08) phpCAS-1.3.8 ****************** [CAS.php:475]
+A0B6 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+A0B6 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+A0B6 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+A0B6 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+A0B6 .|    <= ''
+A0B6 .<= ''
+A0B6 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+A0B6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A0B6 .<= ''
+A0B6 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+A0B6 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+A0B6 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+A0B6 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+A0B6 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+A0B6 .|    |    |    <= true
+A0B6 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+A0B6 .|    |    <= true
+A0B6 .|    |    user is authenticated [Client.php:1337]
+A0B6 .|    <= true
+A0B6 .<= true
+C41B .START (2020-11-23 09:46:09) phpCAS-1.3.8 ****************** [CAS.php:475]
+C41B .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+C41B .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+C41B .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+C41B .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+C41B .|    <= ''
+C41B .<= ''
+C41B .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+C41B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C41B .<= ''
+C41B .=> phpCAS::logout(array (  'service' => 'project.websys/views',  'url' => 'project.websys/views',)) [student_dashboard.php:17]
+C41B .|    => CAS_Client::logout(array (  'service' => 'project.websys/views',  'url' => 'project.websys/views',)) [CAS.php:1470]
+C41B .|    |    Prepare redirect to : https://cas-auth.rpi.edu/cas/logout?url=project.websys%2Fviews&service=project.websys%2Fviews [Client.php:1701]
+C41B .|    |    Destroying session : 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:1703]
+C41B .|    |    Session terminated [Client.php:1707]
+C41B .|    |    exit()
+C41B .|    |    -
+C41B .|    -
+82C1 .START (2020-11-23 09:46:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+82C1 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+82C1 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+82C1 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+82C1 .|    |    Session is not authenticated [Client.php:938]
+82C1 .|    <= ''
+82C1 .<= ''
+82C1 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+82C1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+82C1 .<= ''
+82C1 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+82C1 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+82C1 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+82C1 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+82C1 .|    |    |    |    no user found [Client.php:1640]
+82C1 .|    |    |    <= false
+82C1 .|    |    |    no ticket found [Client.php:1499]
+82C1 .|    |    <= false
+82C1 .|    |    user is not authenticated (cache reset) [Client.php:1374]
+82C1 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+82C1 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+82C1 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+82C1 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+82C1 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+82C1 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+82C1 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+82C1 .|    |    |    exit()
+82C1 .|    |    |    -
+82C1 .|    |    -
+82C1 .|    -
+18AB .START (2020-11-23 09:46:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+18AB .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+18AB .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+18AB .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+18AB .|    |    Session is not authenticated [Client.php:938]
+18AB .|    <= ''
+18AB .<= ''
+18AB .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+18AB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+18AB .<= ''
+18AB .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+18AB .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+18AB .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+18AB .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+18AB .|    |    |    |    no user found [Client.php:1640]
+18AB .|    |    |    <= false
+18AB .|    |    |    no ticket found [Client.php:1499]
+18AB .|    |    <= false
+18AB .|    <= false
+18AB .<= false
+CE2E .START (2020-11-23 09:46:16) phpCAS-1.3.8 ****************** [CAS.php:475]
+CE2E .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+CE2E .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+CE2E .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+CE2E .|    |    Session is not authenticated [Client.php:938]
+CE2E .|    <= ''
+CE2E .<= ''
+CE2E .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+CE2E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CE2E .<= ''
+CE2E .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+CE2E .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+CE2E .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+CE2E .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+CE2E .|    |    |    |    no user found [Client.php:1640]
+CE2E .|    |    |    <= false
+CE2E .|    |    |    no ticket found [Client.php:1499]
+CE2E .|    |    <= false
+CE2E .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+CE2E .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+CE2E .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+CE2E .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+CE2E .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+CE2E .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+CE2E .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D [Client.php:1668]
+CE2E .|    |    |    exit()
+CE2E .|    |    |    -
+CE2E .|    |    -
+CE2E .|    -
+B911 .START (2020-11-23 09:46:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+B911 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+B911 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+B911 .|    |    Starting a new session 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:932]
+B911 .|    |    Session is not authenticated [Client.php:938]
+B911 .|    |    Ticket 'ST-262608-YJCBGjOb1w2R5uS77epk-cas-auth.server.rpi.edu' found [Client.php:1026]
+B911 .|    <= ''
+B911 .<= ''
+B911 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+B911 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B911 .<= ''
+B911 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+B911 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+B911 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+B911 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+B911 .|    |    |    |    no user found [Client.php:1640]
+B911 .|    |    |    <= false
+B911 .|    |    |    CAS 3.0 ticket `ST-262608-YJCBGjOb1w2R5uS77epk-cas-auth.server.rpi.edu' is present [Client.php:1451]
+B911 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+B911 .|    |    |    |     [Client.php:3216]
+B911 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+B911 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+B911 .|    |    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+B911 .|    |    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+B911 .|    |    |    |    <= 'https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+B911 .|    |    |    |    => CAS_Client::_readURL('https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D&ticket=ST-262608-YJCBGjOb1w2R5uS77epk-cas-auth.server.rpi.edu', NULL, NULL, NULL) [Client.php:3237]
+B911 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+B911 .|    |    |    |    |    |    Response Body: 
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+B911 .|    |    |    |    |    |        <cas:authenticationSuccess>
+B911 .|    |    |    |    |    |            <cas:user>FISHEK3</cas:user>
+B911 .|    |    |    |    |    |            
+B911 .|    |    |    |    |    |            
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |            
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |        </cas:authenticationSuccess>
+B911 .|    |    |    |    |    |    </cas:serviceResponse>
+B911 .|    |    |    |    |    |    
+B911 .|    |    |    |    |    |     [CurlRequest.php:84]
+B911 .|    |    |    |    |    <= true
+B911 .|    |    |    |    <= true
+B911 .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+B911 .|    |    |    |    |    Testing for rubycas style attributes [Client.php:3414]
+B911 .|    |    |    |    <= ''
+B911 .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+B911 .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+B911 .|    |    |    |    <= true
+B911 .|    |    |    |    => CAS_Client::_renameSession('ST-262608-YJCBGjOb1w2R5uS77epk-cas-auth.server.rpi.edu') [Client.php:3331]
+B911 .|    |    |    |    |    Killing session: 471e1502f379af323c7c0d0c1673b0d5d97cef80313a6a37cb0095b06de11bde [Client.php:3718]
+B911 .|    |    |    |    |    Starting session: e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:3722]
+B911 .|    |    |    |    |    Restoring old session vars [Client.php:3725]
+B911 .|    |    |    |    <= ''
+B911 .|    |    |    <= true
+B911 .|    |    |    CAS 3.0 ticket `ST-262608-YJCBGjOb1w2R5uS77epk-cas-auth.server.rpi.edu' was validated [Client.php:1457]
+B911 .|    |    |    => CAS_Client::getURL() [Client.php:1523]
+B911 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+B911 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:1523]
+B911 .|    |    |    => CAS_Client::getURL() [Client.php:1525]
+B911 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+B911 .|    |    |    exit()
+B911 .|    |    |    -
+B911 .|    |    -
+B911 .|    -
+BCF8 .START (2020-11-23 09:46:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+BCF8 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+BCF8 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+BCF8 .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+BCF8 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+BCF8 .|    <= ''
+BCF8 .<= ''
+BCF8 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+BCF8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BCF8 .<= ''
+BCF8 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+BCF8 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+BCF8 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+BCF8 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+BCF8 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+BCF8 .|    |    |    <= true
+BCF8 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+BCF8 .|    |    <= true
+BCF8 .|    |    no need to authenticate [Client.php:1288]
+BCF8 .|    <= true
+BCF8 .<= ''
+2FEB .START (2020-11-23 09:46:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+2FEB .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+2FEB .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+2FEB .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+2FEB .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+2FEB .|    <= ''
+2FEB .<= ''
+2FEB .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+2FEB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2FEB .<= ''
+2FEB .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+2FEB .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+2FEB .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+2FEB .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2FEB .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+2FEB .|    |    |    <= true
+2FEB .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+2FEB .|    |    <= true
+2FEB .|    |    user is authenticated [Client.php:1337]
+2FEB .|    <= true
+2FEB .<= true
+5EC8 .START (2020-11-23 09:48:28) phpCAS-1.3.8 ****************** [CAS.php:475]
+5EC8 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+5EC8 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+5EC8 .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+5EC8 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+5EC8 .|    <= ''
+5EC8 .<= ''
+5EC8 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+5EC8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5EC8 .<= ''
+5EC8 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+5EC8 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+5EC8 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+5EC8 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+5EC8 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+5EC8 .|    |    |    <= true
+5EC8 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+5EC8 .|    |    <= true
+5EC8 .|    |    user is authenticated [Client.php:1337]
+5EC8 .|    <= true
+5EC8 .<= true
+C649 .START (2020-11-23 09:48:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+C649 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+C649 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+C649 .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+C649 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+C649 .|    <= ''
+C649 .<= ''
+C649 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+C649 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C649 .<= ''
+C649 .=> phpCAS::logout() [student_dashboard.php:17]
+C649 .|    => CAS_Client::logout(array ()) [CAS.php:1470]
+C649 .|    |    Prepare redirect to : https://cas-auth.rpi.edu/cas/logout [Client.php:1701]
+C649 .|    |    Destroying session : e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:1703]
+C649 .|    |    Session terminated [Client.php:1707]
+C649 .|    |    exit()
+C649 .|    |    -
+C649 .|    -
+D1BD .START (2020-11-23 09:48:32) phpCAS-1.3.8 ****************** [CAS.php:475]
+D1BD .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+D1BD .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+D1BD .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+D1BD .|    |    Session is not authenticated [Client.php:938]
+D1BD .|    <= ''
+D1BD .<= ''
+D1BD .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+D1BD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D1BD .<= ''
+D1BD .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+D1BD .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+D1BD .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+D1BD .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+D1BD .|    |    |    |    no user found [Client.php:1640]
+D1BD .|    |    |    <= false
+D1BD .|    |    |    no ticket found [Client.php:1499]
+D1BD .|    |    <= false
+D1BD .|    |    user is not authenticated (cache reset) [Client.php:1374]
+D1BD .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+D1BD .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+D1BD .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+D1BD .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+D1BD .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+D1BD .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+D1BD .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+D1BD .|    |    |    exit()
+D1BD .|    |    |    -
+D1BD .|    |    -
+D1BD .|    -
+EBDE .START (2020-11-23 09:48:32) phpCAS-1.3.8 ****************** [CAS.php:475]
+EBDE .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+EBDE .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+EBDE .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+EBDE .|    |    Session is not authenticated [Client.php:938]
+EBDE .|    <= ''
+EBDE .<= ''
+EBDE .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+EBDE .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EBDE .<= ''
+EBDE .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+EBDE .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+EBDE .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+EBDE .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+EBDE .|    |    |    |    no user found [Client.php:1640]
+EBDE .|    |    |    <= false
+EBDE .|    |    |    no ticket found [Client.php:1499]
+EBDE .|    |    <= false
+EBDE .|    <= false
+EBDE .<= false
+9BDB .START (2020-11-23 09:48:33) phpCAS-1.3.8 ****************** [CAS.php:475]
+9BDB .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+9BDB .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+9BDB .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+9BDB .|    |    Session is not authenticated [Client.php:938]
+9BDB .|    <= ''
+9BDB .<= ''
+9BDB .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+9BDB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9BDB .<= ''
+9BDB .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+9BDB .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+9BDB .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+9BDB .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+9BDB .|    |    |    |    no user found [Client.php:1640]
+9BDB .|    |    |    <= false
+9BDB .|    |    |    no ticket found [Client.php:1499]
+9BDB .|    |    <= false
+9BDB .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+9BDB .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+9BDB .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+9BDB .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+9BDB .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+9BDB .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+9BDB .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D [Client.php:1668]
+9BDB .|    |    |    exit()
+9BDB .|    |    |    -
+9BDB .|    |    -
+9BDB .|    -
+1139 .START (2020-11-23 09:48:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+1139 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+1139 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+1139 .|    |    Starting a new session e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:932]
+1139 .|    |    Session is not authenticated [Client.php:938]
+1139 .|    |    Ticket 'ST-262609-r6TPXH0cOPDzmNjEE9EH-cas-auth.server.rpi.edu' found [Client.php:1026]
+1139 .|    <= ''
+1139 .<= ''
+1139 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+1139 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1139 .<= ''
+1139 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+1139 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+1139 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+1139 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+1139 .|    |    |    |    no user found [Client.php:1640]
+1139 .|    |    |    <= false
+1139 .|    |    |    CAS 3.0 ticket `ST-262609-r6TPXH0cOPDzmNjEE9EH-cas-auth.server.rpi.edu' is present [Client.php:1451]
+1139 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+1139 .|    |    |    |     [Client.php:3216]
+1139 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+1139 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+1139 .|    |    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+1139 .|    |    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+1139 .|    |    |    |    <= 'https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+1139 .|    |    |    |    => CAS_Client::_readURL('https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D&ticket=ST-262609-r6TPXH0cOPDzmNjEE9EH-cas-auth.server.rpi.edu', NULL, NULL, NULL) [Client.php:3237]
+1139 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+1139 .|    |    |    |    |    |    Response Body: 
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+1139 .|    |    |    |    |    |        <cas:authenticationSuccess>
+1139 .|    |    |    |    |    |            <cas:user>FISHEK3</cas:user>
+1139 .|    |    |    |    |    |            
+1139 .|    |    |    |    |    |            
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |            
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |        </cas:authenticationSuccess>
+1139 .|    |    |    |    |    |    </cas:serviceResponse>
+1139 .|    |    |    |    |    |    
+1139 .|    |    |    |    |    |     [CurlRequest.php:84]
+1139 .|    |    |    |    |    <= true
+1139 .|    |    |    |    <= true
+1139 .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+1139 .|    |    |    |    |    Testing for rubycas style attributes [Client.php:3414]
+1139 .|    |    |    |    <= ''
+1139 .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+1139 .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+1139 .|    |    |    |    <= true
+1139 .|    |    |    |    => CAS_Client::_renameSession('ST-262609-r6TPXH0cOPDzmNjEE9EH-cas-auth.server.rpi.edu') [Client.php:3331]
+1139 .|    |    |    |    |    Killing session: e320f394d247c29dff393bf732c9eca98a2d4ebd9ea69411554a55012cdfcc64 [Client.php:3718]
+1139 .|    |    |    |    |    Starting session: 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:3722]
+1139 .|    |    |    |    |    Restoring old session vars [Client.php:3725]
+1139 .|    |    |    |    <= ''
+1139 .|    |    |    <= true
+1139 .|    |    |    CAS 3.0 ticket `ST-262609-r6TPXH0cOPDzmNjEE9EH-cas-auth.server.rpi.edu' was validated [Client.php:1457]
+1139 .|    |    |    => CAS_Client::getURL() [Client.php:1523]
+1139 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+1139 .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:1523]
+1139 .|    |    |    => CAS_Client::getURL() [Client.php:1525]
+1139 .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+1139 .|    |    |    exit()
+1139 .|    |    |    -
+1139 .|    |    -
+1139 .|    -
+139C .START (2020-11-23 09:48:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+139C .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+139C .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+139C .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+139C .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+139C .|    <= ''
+139C .<= ''
+139C .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+139C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+139C .<= ''
+139C .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+139C .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+139C .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+139C .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+139C .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+139C .|    |    |    <= true
+139C .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+139C .|    |    <= true
+139C .|    |    no need to authenticate [Client.php:1288]
+139C .|    <= true
+139C .<= ''
+BA8C .START (2020-11-23 09:48:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+BA8C .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+BA8C .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+BA8C .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+BA8C .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+BA8C .|    <= ''
+BA8C .<= ''
+BA8C .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+BA8C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BA8C .<= ''
+BA8C .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+BA8C .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+BA8C .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+BA8C .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+BA8C .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+BA8C .|    |    |    <= true
+BA8C .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+BA8C .|    |    <= true
+BA8C .|    |    user is authenticated [Client.php:1337]
+BA8C .|    <= true
+BA8C .<= true
+1C33 .START (2020-11-23 09:48:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+1C33 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+1C33 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+1C33 .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+1C33 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+1C33 .|    <= ''
+1C33 .<= ''
+1C33 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+1C33 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1C33 .<= ''
+1C33 .=> phpCAS::logout() [student_dashboard.php:17]
+1C33 .|    => CAS_Client::logout(array ()) [CAS.php:1470]
+1C33 .|    |    Prepare redirect to : https://cas-auth.rpi.edu/cas/logout [Client.php:1701]
+1C33 .|    |    Destroying session : 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:1703]
+1C33 .|    |    Session terminated [Client.php:1707]
+1C33 .|    |    exit()
+1C33 .|    |    -
+1C33 .|    -
+D9B4 .START (2020-11-23 09:48:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+D9B4 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+D9B4 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+D9B4 .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+D9B4 .|    |    Session is not authenticated [Client.php:938]
+D9B4 .|    <= ''
+D9B4 .<= ''
+D9B4 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+D9B4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D9B4 .<= ''
+D9B4 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+D9B4 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+D9B4 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+D9B4 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+D9B4 .|    |    |    |    no user found [Client.php:1640]
+D9B4 .|    |    |    <= false
+D9B4 .|    |    |    no ticket found [Client.php:1499]
+D9B4 .|    |    <= false
+D9B4 .|    |    user is not authenticated (cache reset) [Client.php:1374]
+D9B4 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+D9B4 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+D9B4 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+D9B4 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+D9B4 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+D9B4 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+D9B4 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+D9B4 .|    |    |    exit()
+D9B4 .|    |    |    -
+D9B4 .|    |    -
+D9B4 .|    -
+EEEF .START (2020-11-23 09:48:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+EEEF .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+EEEF .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+EEEF .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+EEEF .|    |    Session is not authenticated [Client.php:938]
+EEEF .|    <= ''
+EEEF .<= ''
+EEEF .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+EEEF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EEEF .<= ''
+EEEF .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+EEEF .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+EEEF .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+EEEF .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+EEEF .|    |    |    |    no user found [Client.php:1640]
+EEEF .|    |    |    <= false
+EEEF .|    |    |    no ticket found [Client.php:1499]
+EEEF .|    |    <= false
+EEEF .|    <= false
+EEEF .<= false
+C96A .START (2020-11-23 09:49:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+C96A .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+C96A .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+C96A .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+C96A .|    |    Session is not authenticated [Client.php:938]
+C96A .|    <= ''
+C96A .<= ''
+C96A .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+C96A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C96A .<= ''
+C96A .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+C96A .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+C96A .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+C96A .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C96A .|    |    |    |    no user found [Client.php:1640]
+C96A .|    |    |    <= false
+C96A .|    |    |    no ticket found [Client.php:1499]
+C96A .|    |    <= false
+C96A .|    |    user is not authenticated (cache reset) [Client.php:1374]
+C96A .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+C96A .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+C96A .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+C96A .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+C96A .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+C96A .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+C96A .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+C96A .|    |    |    exit()
+C96A .|    |    |    -
+C96A .|    |    -
+C96A .|    -
+256D .START (2020-11-23 09:49:52) phpCAS-1.3.8 ****************** [CAS.php:475]
+256D .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+256D .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+256D .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+256D .|    |    Session is not authenticated [Client.php:938]
+256D .|    <= ''
+256D .<= ''
+256D .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+256D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+256D .<= ''
+256D .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+256D .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+256D .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+256D .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+256D .|    |    |    |    no user found [Client.php:1640]
+256D .|    |    |    <= false
+256D .|    |    |    no ticket found [Client.php:1499]
+256D .|    |    <= false
+256D .|    <= false
+256D .<= false
+AED7 .START (2020-11-23 09:49:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+AED7 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+AED7 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+AED7 .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+AED7 .|    |    Session is not authenticated [Client.php:938]
+AED7 .|    <= ''
+AED7 .<= ''
+AED7 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+AED7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AED7 .<= ''
+AED7 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+AED7 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+AED7 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+AED7 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+AED7 .|    |    |    |    no user found [Client.php:1640]
+AED7 .|    |    |    <= false
+AED7 .|    |    |    no ticket found [Client.php:1499]
+AED7 .|    |    <= false
+AED7 .|    |    user is not authenticated (cache reset) [Client.php:1374]
+AED7 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+AED7 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+AED7 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+AED7 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+AED7 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+AED7 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+AED7 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+AED7 .|    |    |    exit()
+AED7 .|    |    |    -
+AED7 .|    |    -
+AED7 .|    -
+CDED .START (2020-11-23 09:49:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+CDED .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+CDED .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+CDED .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+CDED .|    |    Session is not authenticated [Client.php:938]
+CDED .|    <= ''
+CDED .<= ''
+CDED .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+CDED .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CDED .<= ''
+CDED .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+CDED .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+CDED .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+CDED .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+CDED .|    |    |    |    no user found [Client.php:1640]
+CDED .|    |    |    <= false
+CDED .|    |    |    no ticket found [Client.php:1499]
+CDED .|    |    <= false
+CDED .|    <= false
+CDED .<= false
+90E2 .START (2020-11-23 09:49:57) phpCAS-1.3.8 ****************** [CAS.php:475]
+90E2 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+90E2 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+90E2 .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+90E2 .|    |    Session is not authenticated [Client.php:938]
+90E2 .|    <= ''
+90E2 .<= ''
+90E2 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+90E2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+90E2 .<= ''
+90E2 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+90E2 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+90E2 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+90E2 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+90E2 .|    |    |    |    no user found [Client.php:1640]
+90E2 .|    |    |    <= false
+90E2 .|    |    |    no ticket found [Client.php:1499]
+90E2 .|    |    <= false
+90E2 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+90E2 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+90E2 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+90E2 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+90E2 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+90E2 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+90E2 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D [Client.php:1668]
+90E2 .|    |    |    exit()
+90E2 .|    |    |    -
+90E2 .|    |    -
+90E2 .|    -
+2E9F .START (2020-11-23 09:49:58) phpCAS-1.3.8 ****************** [CAS.php:475]
+2E9F .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+2E9F .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+2E9F .|    |    Starting a new session 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:932]
+2E9F .|    |    Session is not authenticated [Client.php:938]
+2E9F .|    |    Ticket 'ST-262612-9fM2u5aWOqUOc3qkpW3k-cas-auth.server.rpi.edu' found [Client.php:1026]
+2E9F .|    <= ''
+2E9F .<= ''
+2E9F .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+2E9F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2E9F .<= ''
+2E9F .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+2E9F .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+2E9F .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+2E9F .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2E9F .|    |    |    |    no user found [Client.php:1640]
+2E9F .|    |    |    <= false
+2E9F .|    |    |    CAS 3.0 ticket `ST-262612-9fM2u5aWOqUOc3qkpW3k-cas-auth.server.rpi.edu' is present [Client.php:1451]
+2E9F .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+2E9F .|    |    |    |     [Client.php:3216]
+2E9F .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+2E9F .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+2E9F .|    |    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:3585]
+2E9F .|    |    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+2E9F .|    |    |    |    <= 'https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D'
+2E9F .|    |    |    |    => CAS_Client::_readURL('https://cas-auth.rpi.edu/cas/p3/serviceValidate?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php%3Flogin%3D&ticket=ST-262612-9fM2u5aWOqUOc3qkpW3k-cas-auth.server.rpi.edu', NULL, NULL, NULL) [Client.php:3237]
+2E9F .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+2E9F .|    |    |    |    |    |    Response Body: 
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+2E9F .|    |    |    |    |    |        <cas:authenticationSuccess>
+2E9F .|    |    |    |    |    |            <cas:user>FISHEK3</cas:user>
+2E9F .|    |    |    |    |    |            
+2E9F .|    |    |    |    |    |            
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |            
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |        </cas:authenticationSuccess>
+2E9F .|    |    |    |    |    |    </cas:serviceResponse>
+2E9F .|    |    |    |    |    |    
+2E9F .|    |    |    |    |    |     [CurlRequest.php:84]
+2E9F .|    |    |    |    |    <= true
+2E9F .|    |    |    |    <= true
+2E9F .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+2E9F .|    |    |    |    |    Testing for rubycas style attributes [Client.php:3414]
+2E9F .|    |    |    |    <= ''
+2E9F .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+2E9F .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+2E9F .|    |    |    |    <= true
+2E9F .|    |    |    |    => CAS_Client::_renameSession('ST-262612-9fM2u5aWOqUOc3qkpW3k-cas-auth.server.rpi.edu') [Client.php:3331]
+2E9F .|    |    |    |    |    Killing session: 03bee794fe51707a4879fcf62952513a3f445a457173f79a2e54dd2f0e55ee84 [Client.php:3718]
+2E9F .|    |    |    |    |    Starting session: 4e687b606c910d8214e67f6ac97b98abc74e86c38bbf2664f256f478e8ec95c3 [Client.php:3722]
+2E9F .|    |    |    |    |    Restoring old session vars [Client.php:3725]
+2E9F .|    |    |    |    <= ''
+2E9F .|    |    |    <= true
+2E9F .|    |    |    CAS 3.0 ticket `ST-262612-9fM2u5aWOqUOc3qkpW3k-cas-auth.server.rpi.edu' was validated [Client.php:1457]
+2E9F .|    |    |    => CAS_Client::getURL() [Client.php:1523]
+2E9F .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+2E9F .|    |    |    Prepare redirect to : http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login= [Client.php:1523]
+2E9F .|    |    |    => CAS_Client::getURL() [Client.php:1525]
+2E9F .|    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php?login='
+2E9F .|    |    |    exit()
+2E9F .|    |    |    -
+2E9F .|    |    -
+2E9F .|    -
+63D6 .START (2020-11-23 09:49:59) phpCAS-1.3.8 ****************** [CAS.php:475]
+63D6 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+63D6 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+63D6 .|    |    Starting a new session 4e687b606c910d8214e67f6ac97b98abc74e86c38bbf2664f256f478e8ec95c3 [Client.php:932]
+63D6 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+63D6 .|    <= ''
+63D6 .<= ''
+63D6 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+63D6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+63D6 .<= ''
+63D6 .=> phpCAS::forceAuthentication() [student_dashboard.php:11]
+63D6 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+63D6 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+63D6 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+63D6 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+63D6 .|    |    |    <= true
+63D6 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+63D6 .|    |    <= true
+63D6 .|    |    no need to authenticate [Client.php:1288]
+63D6 .|    <= true
+63D6 .<= ''
+8505 .START (2020-11-23 09:49:59) phpCAS-1.3.8 ****************** [CAS.php:475]
+8505 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+8505 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+8505 .|    |    Starting a new session 4e687b606c910d8214e67f6ac97b98abc74e86c38bbf2664f256f478e8ec95c3 [Client.php:932]
+8505 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+8505 .|    <= ''
+8505 .<= ''
+8505 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+8505 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8505 .<= ''
+8505 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+8505 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+8505 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+8505 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+8505 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+8505 .|    |    |    <= true
+8505 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+8505 .|    |    <= true
+8505 .|    |    user is authenticated [Client.php:1337]
+8505 .|    <= true
+8505 .<= true
+AA18 .START (2020-11-23 09:53:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+AA18 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+AA18 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+AA18 .|    |    Starting a new session 4e687b606c910d8214e67f6ac97b98abc74e86c38bbf2664f256f478e8ec95c3 [Client.php:932]
+AA18 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+AA18 .|    <= ''
+AA18 .<= ''
+AA18 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+AA18 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AA18 .<= ''
+AA18 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+AA18 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+AA18 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+AA18 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+AA18 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+AA18 .|    |    |    <= true
+AA18 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+AA18 .|    |    <= true
+AA18 .|    |    user is authenticated [Client.php:1337]
+AA18 .|    <= true
+AA18 .<= true
+4812 .START (2020-11-24 00:32:17) phpCAS-1.3.8 ****************** [CAS.php:475]
+4812 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+4812 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+4812 .|    |    Starting a new session 4e687b606c910d8214e67f6ac97b98abc74e86c38bbf2664f256f478e8ec95c3 [Client.php:932]
+4812 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+4812 .|    <= ''
+4812 .<= ''
+4812 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+4812 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+4812 .<= ''
+4812 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+4812 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+4812 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+4812 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+4812 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+4812 .|    |    |    <= true
+4812 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+4812 .|    |    <= true
+4812 .|    |    user is authenticated [Client.php:1337]
+4812 .|    <= true
+4812 .<= true
+5684 .START (2020-11-30 23:36:57) phpCAS-1.3.8 ****************** [CAS.php:475]
+5684 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+5684 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+5684 .|    |    Starting a new session 59ebdbf8d33afc7c56f7f53dfaea483c71833c0129f5d70506ecdd2a2b38d6ae [Client.php:932]
+5684 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+5684 .|    <= ''
+5684 .<= ''
+5684 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+5684 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5684 .<= ''
+5684 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+5684 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+5684 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+5684 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+5684 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+5684 .|    |    |    <= true
+5684 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+5684 .|    |    <= true
+5684 .|    |    user is authenticated [Client.php:1337]
+5684 .|    <= true
+5684 .<= true
+CFA6 .START (2020-12-01 23:03:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+CFA6 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+CFA6 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+CFA6 .|    |    Starting a new session df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:932]
+CFA6 .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+CFA6 .|    <= ''
+CFA6 .<= ''
+CFA6 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+CFA6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CFA6 .<= ''
+CFA6 .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+CFA6 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+CFA6 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+CFA6 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+CFA6 .|    |    |    |    user = `FISHEK3' [Client.php:1627]
+CFA6 .|    |    |    <= true
+CFA6 .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+CFA6 .|    |    <= true
+CFA6 .|    |    user is authenticated [Client.php:1337]
+CFA6 .|    <= true
+CFA6 .<= true
+6DFD .START (2020-12-01 23:04:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+6DFD .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+6DFD .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+6DFD .|    |    Starting a new session df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:932]
+6DFD .|    |    Session is authenticated as: FISHEK3 [Client.php:936]
+6DFD .|    <= ''
+6DFD .<= ''
+6DFD .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+6DFD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6DFD .<= ''
+6DFD .=> phpCAS::logout() [student_dashboard.php:17]
+6DFD .|    => CAS_Client::logout(array ()) [CAS.php:1470]
+6DFD .|    |    Prepare redirect to : https://cas-auth.rpi.edu/cas/logout [Client.php:1701]
+6DFD .|    |    Destroying session : df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:1703]
+6DFD .|    |    Session terminated [Client.php:1707]
+6DFD .|    |    exit()
+6DFD .|    |    -
+6DFD .|    -
+5B6A .START (2020-12-01 23:04:10) phpCAS-1.3.8 ****************** [CAS.php:475]
+5B6A .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+5B6A .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+5B6A .|    |    Starting a new session df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:932]
+5B6A .|    |    Session is not authenticated [Client.php:938]
+5B6A .|    <= ''
+5B6A .<= ''
+5B6A .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+5B6A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5B6A .<= ''
+5B6A .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+5B6A .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+5B6A .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+5B6A .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+5B6A .|    |    |    |    no user found [Client.php:1640]
+5B6A .|    |    |    <= false
+5B6A .|    |    |    no ticket found [Client.php:1499]
+5B6A .|    |    <= false
+5B6A .|    |    user is not authenticated (cache reset) [Client.php:1374]
+5B6A .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+5B6A .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+5B6A .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+5B6A .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+5B6A .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+5B6A .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+5B6A .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+5B6A .|    |    |    exit()
+5B6A .|    |    |    -
+5B6A .|    |    -
+5B6A .|    -
+419E .START (2020-12-01 23:04:11) phpCAS-1.3.8 ****************** [CAS.php:475]
+419E .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:7]
+419E .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+419E .|    |    Starting a new session df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:932]
+419E .|    |    Session is not authenticated [Client.php:938]
+419E .|    <= ''
+419E .<= ''
+419E .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:8]
+419E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+419E .<= ''
+419E .=> phpCAS::checkAuthentication() [student_dashboard.php:51]
+419E .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+419E .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+419E .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+419E .|    |    |    |    no user found [Client.php:1640]
+419E .|    |    |    <= false
+419E .|    |    |    no ticket found [Client.php:1499]
+419E .|    |    <= false
+419E .|    <= false
+419E .<= false
+6FE9 .START (2020-12-01 23:11:46) phpCAS-1.3.8 ****************** [CAS.php:475]
+6FE9 .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:6]
+6FE9 .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+6FE9 .|    |    Starting a new session df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:932]
+6FE9 .|    |    Session is not authenticated [Client.php:938]
+6FE9 .|    <= ''
+6FE9 .<= ''
+6FE9 .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:7]
+6FE9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6FE9 .<= ''
+6FE9 .=> phpCAS::checkAuthentication() [student_dashboard.php:46]
+6FE9 .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+6FE9 .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+6FE9 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+6FE9 .|    |    |    |    no user found [Client.php:1640]
+6FE9 .|    |    |    <= false
+6FE9 .|    |    |    no ticket found [Client.php:1499]
+6FE9 .|    |    <= false
+6FE9 .|    |    user is not authenticated (cache reset) [Client.php:1374]
+6FE9 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1375]
+6FE9 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1661]
+6FE9 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+6FE9 .|    |    |    |    |    Final URI: http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php [Client.php:3585]
+6FE9 .|    |    |    |    <= 'http://websys.websys/lab10/Tutorio-master/src/student_dashboard.php'
+6FE9 .|    |    |    <= 'https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true'
+6FE9 .|    |    |    Redirect to : https://cas-auth.rpi.edu/cas/login?service=http%3A%2F%2Fwebsys.websys%2Flab10%2FTutorio-master%2Fsrc%2Fstudent_dashboard.php&gateway=true [Client.php:1668]
+6FE9 .|    |    |    exit()
+6FE9 .|    |    |    -
+6FE9 .|    |    -
+6FE9 .|    -
+E1ED .START (2020-12-01 23:11:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+E1ED .=> phpCAS::client('3.0', 'cas-auth.rpi.edu', 443, '/cas') [student_dashboard.php:6]
+E1ED .|    => CAS_Client::__construct('3.0', false, 'cas-auth.rpi.edu', 443, '/cas', true) [CAS.php:366]
+E1ED .|    |    Starting a new session df866a64e79f941c5ac2d902f02d01d49daaa5203c06ed794520baa1ebf85664 [Client.php:932]
+E1ED .|    |    Session is not authenticated [Client.php:938]
+E1ED .|    <= ''
+E1ED .<= ''
+E1ED .=> phpCAS::setNoCasServerValidation() [student_dashboard.php:7]
+E1ED .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E1ED .<= ''
+E1ED .=> phpCAS::checkAuthentication() [student_dashboard.php:46]
+E1ED .|    => CAS_Client::checkAuthentication() [CAS.php:1100]
+E1ED .|    |    => CAS_Client::isAuthenticated() [Client.php:1336]
+E1ED .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+E1ED .|    |    |    |    no user found [Client.php:1640]
+E1ED .|    |    |    <= false
+E1ED .|    |    |    no ticket found [Client.php:1499]
+E1ED .|    |    <= false
+E1ED .|    <= false
+E1ED .<= false
