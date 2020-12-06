@@ -1,3 +1,23 @@
+<?php
+require_once 'vendor/jasig/phpcas/CAS.php';
+
+phpCAS::setDebug();
+phpCAS::setVerbose(true);
+phpCAS::client(CAS_VERSION_3_0, 'cas-auth.rpi.edu', 443, '/cas');
+phpCAS::setNoCasServerValidation();
+
+if (isset($_REQUEST['login'])) {
+   phpCAS::forceAuthentication();
+   header("Location: index.php");
+   exit();
+}
+
+if (isset($_REQUEST['logout'])) {
+   phpCAS::logout();
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,13 +57,20 @@
         <i class="fas fa-times"></i>
       </a>
       <a href="index.html">About</a>
-      <a href="student_dashboard.html">Login</a>
+      <?php
+        if (!phpCAS::checkAuthentication()) {
+           echo '<li class="nav-item"><a id="login" href="?login=">Log In</a></li>';
+        } else {
+           echo '<li class="nav-item"><a class="nav-link" id="login" href="?logout=">Logout</a></li>';
+           echo "<div id='usern'>YOU ARE LOGGED IN AS " . phpCAS::getUser()."</div>";
+        }
+      ?>
       <a href="contact.html">Contact</a>
     </div>
   </div>
 
   <div class="main-body">
-    <h1> Welcome to Tutorio, An One-stop for Tutoring at RPI </h1>
+    <h1> Welcome to Tutorio, <?php echo''. strtolower(phpCAS::getUser()); ?>! Tutorio is a one-stop shop for Tutoring at RPI </h1>
     <p>Get started As:</p>
     <h1><button class = "button1">Mentor/TA</button></h1>
     <h1><button class = "button2">Tutor</button></h1>
@@ -57,20 +84,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
