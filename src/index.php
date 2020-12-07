@@ -71,7 +71,7 @@ if (isset($_REQUEST['logout'])) {
 
   <div class="main-body">
     <h1> Welcome to Tutorio, <?php echo''. strtolower(phpCAS::getUser()); ?>! Tutorio is a one-stop shop for Tutoring at RPI </h1>
-    <p>Get started As:</p>
+    <p>Get Started As:</p>
     <h1><button class = "button1">Mentor/TA</button></h1>
     <h1><button class = "button2">Tutor</button></h1>
     <h1><button class = "button3">Student</button></h1>
